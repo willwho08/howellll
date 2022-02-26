@@ -524,8 +524,8 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: #212121;
+  color: rgb(238, 238, 238);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -536,13 +536,13 @@ img{
 }
 .footer__social{
   margin-bottom: var(--mb-4);
+  color: rgb(255, 255, 255);
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #fff;
+  color: rgb(255, 255, 255);
   margin: 0 var(--mb-2)
 }
-
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
