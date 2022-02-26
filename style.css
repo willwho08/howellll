@@ -483,6 +483,7 @@ img{
 }
 .skills__img{
   border-radius: .5rem;
+  box-shadow: 0 4px 25px #14FFEC;
 }
 
 /* ===== WORK =====*/
