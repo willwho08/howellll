@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="theme.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+          rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="zTNMt8Dc"></script>
+
+
+        <title>Howell</title>
+            <link rel="icon" type="image/png" href="assets/img/logo.png">
+<script src="https://www.momentcrm.com/embed"></script>
+      </head>
+      
+      <body>
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="logo">
+              <a href="#" class="nav-link">
+                <span class="link-text logo-text">Howell</span>
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fad"
+                  data-icon="angle-double-right"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+                >
+                  <g class="fa-group">
+                    <path
+                      fill="currentColor"
+                      d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                      class="fa-secondary"
+                    ></path>
+                    <path
+                      fill="currentColor"
+                      d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                      class="fa-primary"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+      
+            <li class="nav-item">
+              <a href="#home" class="nav-link">
+                <svg
+                 xmlns="http://www.w3.org/2000/svg" 
+                 width="28" 
+                 height="28"
+                fill="currentColor" 
+                class="svg-inline--bi bi-house-door bi-w-18 bi-9x" 
+                viewBox="0 0 16 16">
+                  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                </svg>
+                </svg>
+                <span class="link-text">Home</span>
+              </a>
+            </li>
+      
+            <li class="nav-item">
+              <a href="#about" class="nav-link">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="28" 
+                height="28"
+                fill="currentColor" 
+                class="bi bi-person-check-fill" 
+                viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                  <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+
+                </svg>
+                <span class="link-text">About</span>
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="28" 
+                height="28"
+                fill="currentColor" 
+                class="bi bi-clipboard-data" 
+                viewBox="0 0 16 16">
+                  <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z"/>
+                  <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                  <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                </svg>
+
+                </svg>
+                <span class="link-text">Skills</span>
+              </a>
+            </li>
+
+      
+            <li class="nav-item">
+              <a href="#work" class="nav-link">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="28" 
+                height="28" 
+                fill="currentColor" 
+                class="bi bi-person-workspace" 
+                viewBox="0 0 16 16">
+                  <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                  <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
+                </svg>
+                <span class="link-text">Works</span>
+              </a>
+            </li>
+    
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="28" 
+                height="28" 
+                fill="currentColor" 
+                class="bi bi-music-note-list" 
+                viewBox="0 0 16 16">
+                  <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                  <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                  <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                  <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+
+                </svg>
+                <span class="link-text">Playlist</span>
+              </a>
+            </li>
+      
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="28" 
+                height="28" 
+                fill="currentColor" 
+                class="bi bi-telephone" 
+                viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+
+                </svg>
+                <span class="link-text">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      
+      <main>
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+              <div class="home__data">
+                  <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Howell</span><br></h1>
+                  <h4 style="font-size:xx-large;" class="home__title">Bakit nga ba ako nag IT?<br><span class="home__title-color">"Ganito kasi yan, gusto ko talaga tong IT kaso nung nasa kalagitnaan na ewan ko ba parang umaayaw na saken yung mismong course na IT"</span><br></h4>
+
+                  <a href="nights.mp3" style="color: black; " class="button">Just Dont!</a>
+              </div>
+
+              <div class="home__social">
+                  <a href="" class="home__social-icon"><span class="iconify" data-icon="akar-icons:facebook-fill" style="color: #14ffec;"></span></a>
+                  <a href="" class="home__social-icon"><span class="iconify" data-icon="akar-icons:twitter-fill" style="color: #14ffec;"></span></a>
+                  <a href="" class="home__social-icon"><span class="iconify" data-icon="ant-design:instagram-filled" style="color: #14ffec;"></span></span></a>
+              </div>
+          </section>
+
+                      <!--===== ABOUT =====-->
+                      <section class="about section " id="about">
+                        <h2 class="section-title">About</h2>
+        
+        <center><h3 class="about__subtitle">Twitter</h3></center>
+        <center><a class="twitter-timeline" data-width="800" data-height="350" data-theme="dark" href="https://twitter.com/hwlljhn?ref_src=twsrc%5Etfw">Tweets by hwlljhn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center> 
+                        <div class="about__container bd-grid">
+                            <div class="about__img">
+                                <img src="assets/img/perfil1.png" alt="Howell" style="pointer-events: none;" >
+                            </div>
+                            
+                            <div>
+                                <h2 class="about__subtitle">I'am Howell</h2>
+                                <p class="about__text">Wala ako masabi ginawa ko lang to kasi wala magawa natripan lang, HAHAHA. Habang wala ulit ginagawa. mag practice lang munang magsearch baka sakaling matuto kahit papano HAHAHA.</p>           
+                            </div>                                   
+                        </div>
+                    </section>
+
+                               <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+              <h2 class="section-title">Skills</h2>
+
+              <div class="skills__container bd-grid">          
+                  <div>
+                      <h2 class="skills__subtitle">Skills nga ba? HAHAHA</h2>
+                      <p class="skills__text">Hindi naman ako masipag e, minsan napipilitan gumawa kasi kinakailangan na lalo na nung nag capstone na kami. At least may ambag ako sa group always chariz, HAHAHAHA. Sa coding natuto lang ako ng konti dahil sa Google, Stock overflow, Youtube ganun lang HAHAHA. Tamang search lang, dimo sariling code pero natuto ka naman paunti unti.</p>
+                      <div class="skills__data">
+                          <div class="skills__names">
+                            <span class="iconify" data-icon="cib:html5" style="color: #14FFEC;" data-width="30" data-height="30"></span>
+                              <span class="skills__name">HTML</span>
+                          </div>
+                          <div class="skills__bar skills__html">
+
+                          </div>
+                          <div>
+                              <span class="skills__percentage">1%</span>
+                          </div>
+                      </div>
+                      <div class="skills__data">
+                          <div class="skills__names">
+                            <span class="iconify" data-icon="cib:css3" style="color: #14FFEC;" data-width="30" data-height="30"></span>
+                              <span class="skills__name">CSS</span>
+                          </div>
+                          <div class="skills__bar skills__css">
+                              
+                          </div>
+                          <div>
+                              <span class="skills__percentage">1%</span>
+                          </div>
+                      </div>
+                      <div class="skills__data">
+                          <div class="skills__names">
+                            <span class="iconify" data-icon="cib:javascript" style="color: #14FFEC;" data-width="30" data-height="30"></span>
+                              <span class="skills__name">JAVASCRIPT</span>
+                          </div>
+                          <div class="skills__bar skills__js">
+                              
+                          </div>
+                          <div>
+                              <span class="skills__percentage">1%</span>
+                          </div>
+                      </div>
+                      <div class="skills__data">
+                          <div class="skills__names">
+                              <span class="iconify" data-icon="cib:php" style="color: #14FFEC;" data-width="40" data-height="40"></span>
+                              <span class="skills__name">PHP</span>
+                          </div>
+                          <div class="skills__bar skills__ux">
+                              
+                          </div>
+                          <div>
+                              <span class="skills__percentage">1%</span>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div>              
+                      <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                  </div>
+              </div>
+          </section>
+
+
+
+                    <!--===== WORK =====-->
+                    <br> <section class="work section" id="work">
+                      <h2 class="section-title">Work</h2>
+      
+                      <div class="skills__container bd-grid">
+                              <div>
+                          <center><h2 class="skills__subtitle">Syempre wala!</h2>
+                          <p class="skills__text"> Di joke lang meron syempre kaso diko na tanda kung nasan lagay ko na lang dito pag nakita ko. Tas ayan yung nagawa ko dati konti lang kasi di naman nga masipag e, HAHAHA.</p></center>
+                          <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein">
+                            <ul class="slider-container py-4">
+                                <li class="">
+                                    <div class="card shadow h-100">
+                                        <div class="ratio ratio-16x9">
+                                            <img src="assets/img/log.png" class="card-img-top" loading="lazy" alt="...">
+                                        </div>
+                                        <div class="card-body p-3 p-xl-5">
+                                            <h3 class="card-title h5">ReserveVision</h3>
+                                            <p class="card-text">Capstone namin to ngayong 4th year, wala simpleng system lang naman yan.</p>
+                                            <div><a href="https://reservevision.000webhostapp.com/" style="color:rgb(33, 33, 33) " class="button">Visit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="card shadow h-100">
+                                        <div class="ratio ratio-16x9">
+                                            <img src="assets/img/git.png" class="card-img-top" loading="lazy" alt="...">
+                                        </div>
+                                        <div class="card-body p-3 p-xl-5">
+                                            <h3 class="card-title h5">Order Organizer App Repository</h3>
+                                            <p class="card-text">Simpleng app lang sya pwede mong ilist dun yung mga items na pwede ng ideliver, para lang syang todo list.</p>
+                                            <a href="https://gitlab.com/johnhowellatienza/order-organizer-app.git" style="color:rgb(33, 33, 33) " class="button">Visit</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="card shadow h-100">
+                                        <div class="ratio ratio-16x9">
+                                            <img src="assets/img/github.png" class="card-img-top" loading="lazy" alt="...">
+                                        </div>
+                                        <div class="card-body p-3 p-xl-5">
+                                            <h3 class="card-title h5">Simple Main Menu</h3>
+                                            <p class="card-text">Wala to activity lang namin to sa isang subject namin nakalimutan ko na kung anong subject yun, HAHAHA.</p>
+                                            <a href="https://whowill27.github.io/whowillpersonweb/index" style="color:rgb(33, 33, 33) " class="button">Visit</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-visible">
+                                    <div class="card shadow h-100">
+                                        <div class="ratio ratio-16x9">
+                                            <img src="assets/img/github.png" class="card-img-top" loading="lazy" alt="...">
+                                        </div>
+                                        <div class="card-body  p-3 p-xl-5">
+                                            <h3 class="card-title h5">Trivia Scrabble Repository</h3>
+                                            <p class="card-text">Ito naman final project namin nung 2nd year kami, wala gusto ko lang ilagay dito, HAHAHA.</p>
+                                            <a href="https://github.com/willwho08/Trivia-Scrabble" style="color:rgb(33, 33, 33) " class="button">Visit</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-visible">
+                                    <div class="card shadow h-100">
+                                        <div class="ratio ratio-16x9">
+                                            <img src="assets/img/github.png" class="card-img-top" loading="lazy" alt="...">
+                                        </div>
+                                        <div class="card-body  p-3 p-xl-5">
+                                            <h3 class="card-title h5">Management System Repository</h3>
+                                            <p class="card-text">Final project naman namin to sa isa pa naming subject, bale yung ginamit na language dito is C++.</p>
+                                            <a href="https://github.com/willwho08/Simple-Management-Sytem" style="color:rgb(33, 33, 33) " class="button">Visit</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <button type="button" class="slider-nav" aria-label="Go left"></button>
+                            <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+                        
+                        </div>
+              </section>
+
+                             <!--===== PLAYLIST =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">My Playlist</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="skills__container bd-grid">
+                        <div>
+                    <h2 class="skills__subtitle">Bakit ba?, e ito ang gusto ko, HAHAHA.</h2>
+                    <p class="skills__text">Marami akong gustong kanta lalo na mga kanta ng Avicii, Coldplay, Panic at the Disco, Twice, OPM & Anime songs, Old songs wag lang EXB HAHAHA di joke lang.</p>
+</div> 
+
+ </div>
+                    <div class="work__img">
+                        <img src="assets/img/avicii.jpg" alt="Avicii">
+                        <center><audio src="nights.mp3" controls></audio><h3>The Nights</h3></center>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/cold.jpg" alt="Coldplay">
+                        <center><audio src="cold.mp3" controls></audio><h3>Paradise</h3></center>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/just.jpg" alt="Just the Two of Us">
+                        <center><audio src="just-the-two-of-us-hq.mp3" controls></audio><h3>Just the Two of Us</h3></center>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/panic.jpg" controls alt="Panic at thr Disco">
+                        <center><audio src="panic.mp3" controls></audio><h3>High Hopes</h3></center>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/twice.jpg" alt="Twice">
+                        <center><audio src="twice.mp3" controls></audio><h3>I Can't Stop Me</h3></center>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bg"></div>
+
+            <div class="star-field">
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+      </main>
+
+    </body>
+</html>
