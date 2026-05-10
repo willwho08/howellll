@@ -113,7 +113,8 @@ section {
 }
 
 .exp-item,
-.active-pill {
+.active-pill,
+.hero-button a {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -155,6 +156,16 @@ ul {
 .hero-button {
   display: flex;
   gap: 10px;
+}
+
+.hero-button a {
+    background-color: var(--primary);
+    color: var(--tertiary) !important;
+}
+
+.hero-button a:hover {
+    background-color: var(--tertiary);
+    color: var(--primary) !important;
 }
 
 a:hover {
