@@ -499,6 +499,22 @@ a:hover {
     font-size: 15px;
 }
 
+.code-card {
+    margin-top: 20px;
+}
+
+#skills,
+#portfolio,
+#contact {
+    background-color: var(--primary);
+}
+
+#skills h2,
+#portfolio h2,
+#contact h2 {
+    color: var(--tertiary) !important;
+}
+
 @media screen and (max-width:1300px) {
 
   h1 {
