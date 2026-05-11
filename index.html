@@ -385,84 +385,20 @@
     </footer>
   </main>
   <script>
-
     document.addEventListener('contextmenu', function (e) {
       e.preventDefault();
-      e.stopPropagation();
-      return false;
-    }, true);
-
-    document.addEventListener('selectstart', function (e) {
-      e.preventDefault();
-      return false;
-    }, true);
-
-    document.addEventListener('dragstart', function (e) {
-      e.preventDefault();
-      return false;
-    }, true);
+    });
 
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'F12') {
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+        (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+        (e.ctrlKey && e.key === 'U')
+      ) {
         e.preventDefault();
-        e.stopPropagation();
-        return false;
       }
-      if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && (e.key === 'S' || e.key === 's')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && (e.key === 'A' || e.key === 'a')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && (e.key === 'C' || e.key === 'c')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-      if (e.ctrlKey && (e.key === 'P' || e.key === 'p')) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      }
-    }, true);
-
-    (function () {
-      const threshold = 160;
-      function detectDevTools() {
-        if (
-          window.outerWidth - window.innerWidth > threshold ||
-          window.outerHeight - window.innerHeight > threshold
-        ) {
-          document.body.innerHTML = '<h2 style="text-align:center;margin-top:20vh;">Access Denied</h2>';
-        }
-      }
-      window.addEventListener('resize', detectDevTools);
-      setInterval(detectDevTools, 1000);
-    })();
+    });
   </script>
   <script src="/assets/scripts/theme.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
