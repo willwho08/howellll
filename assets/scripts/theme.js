@@ -1,5 +1,5 @@
-var selected = ['hero', 'tech-stack', 'work-history', 'portfolio', 'credentials', 'contact'];
-
+var selected = [];
+// 'hero', 'tech-stack', 'work-history', 'portfolio', 'credentials', 'contact'
 function renderPills() {
   var pillsEl = document.getElementById('activePills');
   pillsEl.innerHTML = selected.map(function (id) {
