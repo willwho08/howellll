@@ -424,9 +424,9 @@ a:hover {
 }
 
 .portfolio-grid .card {
+  font-family: var(--mono);
   padding: 5px 15px;
   font-size: 12px;
-  ;
 }
 
 .stack-dot {
