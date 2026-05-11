@@ -80,11 +80,11 @@ function removePill(id) {
 
 applyVisibility();
 
-document.addEventListener('contextmenu', function(e) {
+document.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
 
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function (e) {
   if (
     e.key === 'F12' ||
     (e.ctrlKey && e.shiftKey && e.key === 'I') ||
